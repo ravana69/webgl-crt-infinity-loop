@@ -1,0 +1,22 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background: #000;
+}
+
+body {
+  min-height: 640px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: radial-gradient(circle at 50% 30%, #fff, #444);
+}
+
+div {
+  padding: 10px 10px 20px;
+  border-radius: 40px;
+  box-shadow: 0 0 50px 50px #000;
+  background: #000;
+}
